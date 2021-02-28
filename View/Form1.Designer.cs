@@ -31,7 +31,7 @@
             this.btn_open = new System.Windows.Forms.Button();
             this.btn_save = new System.Windows.Forms.Button();
             this.btn_color = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.text_rezult = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_open
@@ -61,21 +61,21 @@
             this.btn_color.Text = "Выбрать цвет этому дерьму";
             this.btn_color.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // text_rezult
             // 
-            this.textBox1.Location = new System.Drawing.Point(70, 85);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(276, 262);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.text_rezult.Location = new System.Drawing.Point(70, 85);
+            this.text_rezult.Multiline = true;
+            this.text_rezult.Name = "text_rezult";
+            this.text_rezult.Size = new System.Drawing.Size(276, 262);
+            this.text_rezult.TabIndex = 3;
+            this.text_rezult.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(428, 450);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.text_rezult);
             this.Controls.Add(this.btn_color);
             this.Controls.Add(this.btn_save);
             this.Controls.Add(this.btn_open);
@@ -91,7 +91,7 @@
         private System.Windows.Forms.Button btn_open;
         private System.Windows.Forms.Button btn_save;
         private System.Windows.Forms.Button btn_color;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox text_rezult;
     }
 }
 
